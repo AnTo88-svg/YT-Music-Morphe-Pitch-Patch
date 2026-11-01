@@ -131,7 +131,7 @@ private val pitchResourcePatch = resourcePatch {
 
 @Suppress("unused")
 val pitchPatch = bytecodePatch(
-    name = "Intonazione (pitch)",
+    name = "Pitch Intonation",
     description = "Adds a pitch control from -2 to +2 semitones to the player that does not change " +
             "the playback speed, and a button to share the current track.",
     default = true
